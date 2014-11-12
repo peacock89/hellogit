@@ -1,4 +1,3 @@
-<?php
 
  function pck_plugin_activate() {
   pck_plugin_rules();
@@ -56,4 +55,4 @@
  //register plugin custom pages display
  add_filter('template_redirect', 'pck_plugin_display');
 
- ?>
+ 
